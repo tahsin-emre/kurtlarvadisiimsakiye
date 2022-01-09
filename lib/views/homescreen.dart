@@ -17,7 +17,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   AppBar get buildAppBar {
-    return AppBar();
+    return AppBar(
+      title: const Text('2022 Kurtlar Vadisi İmsakiyesi'),
+    );
   }
 
   Widget get buildBody {

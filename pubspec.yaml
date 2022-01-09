@@ -9,9 +9,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  url_strategy: ^0.2.0 #web-url hash
-  url_launcher: ^6.0.9  #telefon link ve mail için iletişim paketi 
-  shared_preferences: ^2.0.9 #local veri yönetimi
+  url_strategy: ^0.2.0
+  url_launcher: ^6.0.9
+  shared_preferences: ^2.0.9
+  responsive_builder: ^0.4.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
