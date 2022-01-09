@@ -1,9 +1,9 @@
 class SectionModel {
-  late String id;
-  late String day;
+  late int id;
+  late int day;
   late String link;
 
-  SectionModel.fromList(String xid, String xday, String xlink) {
+  SectionModel.fromList(int xid, int xday, String xlink) {
     id = xid;
     day = xday;
     link = xlink;
